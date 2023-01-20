@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home">
+
+        </item>
+        <item
+            android:id="@+id/nav_Share"
+            android:title="Share"
+            android:icon="@drawable/ic_share">
+        </item>
+        <item
+            android:id="@+id/nav_policy"
+            android:title="Terms and Conditions"
+            android:icon="@drawable/ic_terms">
+
+        </item>
+        <item
+            android:id="@+id/nav_Logout"
+            android:title="Logout"
+            android:icon="@drawable/ic__logout">
+
+        </item>
+
+    </group>
+
+
+
+</menu>

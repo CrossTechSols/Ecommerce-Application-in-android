@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Nhacollection">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Nha Collection"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NTZCollection">
+        <activity
+            android:name=".myorders"
+            android:exported="false" />
+        <activity
+            android:name=".jazz_integration"
+            android:exported="false" />
+        <activity
+            android:name=".Jazz_main"
+            android:exported="false" />
+        <activity
+            android:name=".Forget_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Cart_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ItemsActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="co.paystack.android.PublicKey"
+            android:value="pk_test_672d1df0c6a668beea7b2cc2cd5c043427668ace" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".AllCards"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_payment"
+            android:theme="@style/Theme.NTZCollection.NoActionBar" />
+        <activity
+            android:name=".Add_Address"
+            android:parentActivityName=".Add_Address" />
+        <activity
+            android:name=".Address_Activity"
+            android:parentActivityName=".Detail_Activity" />
+        <activity
+            android:name=".Detail_Activity"
+            android:exported="false"
+            android:parentActivityName=".Home_Activity" />
+        <activity
+            android:name=".Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
